@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --primary-color: #c197d2;
+  --secondary-color: #050500;
+  --tertiary-color: #613659;
+  --forth-color: #191919;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+.upper{
+  height: 50px;
+  background-color: #191919;
+  margin-left: 240px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  position: sticky;
+
+}
+.upper-button{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-left: auto;
+}
+
+.btn{
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  margin: 4px 10px;;
+  width: 59px;
+  border-radius: 25px;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.upper p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
+
+.sidenav {
+  z-index: 1;
+  height: 100%;
+  width: 240px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+
+
+.main {
+
+  margin-left: 240px;
+  padding: 0 20px;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #191919);
+}
+
+
+
+.logoBox {
+  display: flex;
+  margin: 25px 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 65px 14px 0px;
+}
+
+.logoBox p {
+  margin-left: 15px;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-top: 20px;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+.bottom {
+  position: sticky;
+  height: 100px;
+  background-color: #050500;
+  color: white;
+  bottom: 0;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 240px;
+  padding: 20px;
+}
+
+#myProgressBar {
+  width: 60vw;
+  cursor: pointer;
+}
+
+#masterSongName{
+  position: absolute;
+    left: 11.5vw;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+
+.icons {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.song{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.song-box img{
+  margin-top: 10px;
+  width: 90%;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.song-box{
+  color: white;
+  width: 25%;
+  background-color: #191919;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.song-info{
+  margin-top: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.song-duration{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.song-play {
+  cursor: pointer;
+}
